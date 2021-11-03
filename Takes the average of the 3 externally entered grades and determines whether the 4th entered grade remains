@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+
+int note1, note2, note3, note4;
+
+printf("Please enter all 3 notes: ");
+scanf_s("%d %d %d", &note1, &note2, &note3);
+
+int average;
+ortalama = ((note1 + note2 + note3) / 3);
+
+printf("your average: %d\n", average);
+
+printf("4. Enter your grade: ");
+scanf_s("%d", &note4);
+
+if (note4>average)
+{
+printf("You're late, congratulations\n");
+}
+else
+{
+printf("you stayed\n");
+
+return 0;
+}
